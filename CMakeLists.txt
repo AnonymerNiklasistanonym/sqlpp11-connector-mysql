@@ -73,7 +73,7 @@ ENDIF()
 
 include_directories("${SQLPP11_INCLUDE_DIR}")
 include_directories("${DATE_INCLUDE_DIR}")
-include_directories("${MYSQL_INCLUDE_DIRS}")
+include_directories("${MYSQL_INCLUDE_DIR}")
 set(include_dir "${PROJECT_SOURCE_DIR}/include")
 file(GLOB_RECURSE sqlpp_headers ${include_dir}/*.h ${SQLPP11_INCLUDE_DIR}/*.h)
 include_directories(${include_dir})
